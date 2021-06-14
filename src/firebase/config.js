@@ -2,15 +2,15 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-var firebaseConfig = {
-  apiKey: "AIzaSyC_j7Rm3d1xTVQBq511r5VVZFP09mb8sdY",
-  authDomain: "ninja-firegram-dad8b.firebaseapp.com",
-  projectId: "ninja-firegram-dad8b",
-  storageBucket: "ninja-firegram-dad8b.appspot.com",
-  messagingSenderId: "590769354321",
-  appId: "1:590769354321:web:50484ad5cca36dbd102a70"
+const firebaseConfig = {
+  apiKey: "AIzaSyCzacvUKMOHC3iZF0usd84h-O18JeltH5Q",
+  authDomain: "firegram-5882d.firebaseapp.com",
+  databaseURL: "https://firegram-5882d-default-rtdb.firebaseio.com",
+  projectId: "firegram-5882d",
+  storageBucket: "firegram-5882d.appspot.com",
+  messagingSenderId: "242042206147",
+  appId: "1:242042206147:web:2410dda6648e484f83af76"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
